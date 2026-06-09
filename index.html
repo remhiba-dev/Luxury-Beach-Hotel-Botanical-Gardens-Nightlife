@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetheria Resort | Luxury Beach, Hotel, Botanical Gardens & Nightlife</title>
+    <meta name="description" content="Experience Aetheria: A premier coastal sanctuary featuring luxury hotels, pristine private beaches, botanical gardens, world-class dining, and exclusive nightlife.">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Aetheria Resort | Luxury Coastal Sanctuary">
+    <meta property="og:description" content="Discover a world where pristine beaches, luxury accommodations, botanical wonders, and vibrant nightlife converge.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.aetheriaresort.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Linked External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JSON-LD Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Resort",
+      "name": "Aetheria Resort & Coastal Complex",
+      "description": "An ultra-luxury coastal oasis featuring premium hotels, pristine private beaches, botanical trail gardens, fine dining spaces, and high-end evening lounges.",
+      "url": "https://www.aetheriaresort.com",
+      "telephone": "+1-800-AETHERIA",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "101 Ocean Vista Boulevard",
+        "addressLocality": "Saint-Tropez",
+        "postalCode": "83990",
+        "addressCountry": "FR"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private Beach Access",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Botanical Gardens",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Nightclub and Events Venue",
+          "value": true
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- NAVIGATION HEADER -->
+    <header id="main-header">
+        <nav class="nav-container">
+            <a href="#" class="logo" aria-label="Aetheria Home">AETHERIA<span>.</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#experience" class="nav-link">The Complex</a></li>
+                <li><a href="#quick-metrics" class="nav-link">Amenities</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+            </ul>
+            <div class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO BANNER -->
+        <section id="hero" aria-label="Introduction Banner">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80" alt="Aerial view of Aetheria Luxury Coastline" class="hero-bg">
+            <div class="hero-content">
+                <span class="section-tag">An Oasis of Absolute Luxury</span>
+                <h1>Where the Ocean Meets Endless Celebration</h1>
+                <p>Immerse yourself in a transformative ecosystem featuring iconic beachfronts, rich botanical environments, Michelin-caliber dining, and prestigious clubs.</p>
+                <div class="hero-actions">
+                    <button class="cta-btn cta-primary" onclick="location.href='#footer-cta'">Reserve Your Journey <i class="fas fa-arrow-right"></i></button>
+                    <button class="cta-btn cta-outline" onclick="location.href='#experience'">Explore Modules</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- THE BENTO EXPERIENCE GRID -->
+        <section id="experience" aria-label="Resort Micro-Environments">
+            <div class="section-header">
+                <span class="section-tag">Curated Environments</span>
+                <h2>One Vision. Five Infinite Realities.</h2>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Beach -->
+                <a href="#beach" class="bento-card size-beach" aria-label="Explore Azure Beach Front">
+                    <img src="images/scenic-view-private-sandy-beach-with-sun-beds-parasokamy-sea-mountains-resort.jpg" alt="Pristine white sand shoreline with structural daybeds" class="bento-card-bg">
+                    <span class="section-tag-card" style="color: var(--accent-teal);">01. Coastal Ecosystem</span>
+                    <h3>Azure Private Beach</h3>
+                    <p>Unwind on pristine sands with hyper-personalized mixology, private curtained cabanas, and crisp clear horizons.</p>
+                </a>
+
+                <!-- Hotel -->
+                <a href="#hotels" class="bento-card size-hotel" aria-label="Explore Lumina Suites">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80" alt="Luxury modern suite with private ocean view infinity pool" class="bento-card-bg">
+                    <span class="section-tag-card" style="color: var(--accent-gold);">02. Architecture</span>
+                    <h3>Lumina Pavilions</h3>
+                    <p>Bespoke suites featuring panoramic structural glass walls and infinity pools hovering directly over the ocean cliffs.</p>
+                </a>
+
+                <!-- Garden -->
+                <a href="#gardens" class="bento-card size-garden" aria-label="Explore Zen Botanical Trails">
+                    <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80" alt="Illuminated winding pathways through heavy green botanical architecture" class="bento-card-bg">
+                    <span class="section-tag-card" style="color: #4CAF50;">03. Serenity</span>
+                    <h3>The Sanctuary Trails</h3>
+                    <p>A bio-diverse oasis arranged with exotic plant installations, quiet architectural water features, and hidden therapy paths.</p>
+                </a>
+
+                <!-- Restaurant -->
+                <a href="#dining" class="bento-card size-restaurant" aria-label="Explore Culinary Culinary Pavilions">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Fine dining terrace overlooking illuminated resort infrastructure" class="bento-card-bg">
+                    <span class="section-tag-card" style="color: var(--accent-gold);">04. Gastronomy</span>
+                    <h3>Elysian Restaurant</h3>
+                    <p>Michelin-caliber dishes crafted by world-class chefs, integrating freshly caught coastal fare with organic estate selections.</p>
+                </a>
+
+                <!-- Parties -->
+                <a href="#parties" class="bento-card size-parties" aria-label="Explore Vibrant Nightlife Infrastructure">
+                    <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1500&q=80" alt="Massive outdoor concert crowd with lasers and glowing neon production" class="bento-card-bg">
+                    <span class="section-tag-card" style="color: #FF007F;">05. Nightlife</span>
+                    <h3>Vortex Open-Air Arena</h3>
+                    <p>When dusk sets, global electronic music artists perform across state-of-the-art spatial audio spaces and custom-designed laser stages.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- STATS OVERLAY BANNER -->
+        <section id="quick-metrics" aria-label="Resort Highlights">
+            <div class="metrics-container">
+                <div class="metric-item">
+                    <h4>5</h4>
+                    <p>Bespoke Micro-Zones</p>
+                </div>
+                <div class="metric-item">
+                    <h4>3</h4>
+                    <p>Michelin Star Venues</p>
+                </div>
+                <div class="metric-item">
+                    <h4>2.5km</h4>
+                    <p>Protected Private Coast</p>
+                </div>
+                <div class="metric-item">
+                    <h4>24/7</h4>
+                    <p>Conscious Guest Care</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonials" aria-label="Guest Endorsements">
+            <div class="section-header">
+                <span class="section-tag">Verified Perspectives</span>
+                <h2>The Standard Heard Worldwide</h2>
+            </div>
+            
+            <div class="testimonial-wrapper">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Aetheria perfectly bridges high-energy nighttime entertainment with deep, restorative daytime luxury. The architecture is absolutely striking."</p>
+                    <div class="user-profile">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Portrait of Helena Rostova">
+                        <div class="user-info">
+                            <h5>Helena Rostova</h5>
+                            <span>Creative Director, Berlin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"The culinary programming at Elysian completely caught me by surprise. Incredible execution matched only by the pristine views of the private coast."</p>
+                    <div class="user-profile">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Portrait of Marcus Vance">
+                        <div class="user-info">
+                            <h5>Marcus Vance</h5>
+                            <span>Strategic Investor</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Walking through the botanical sanctuary paths after a massive night at Vortex Arena felt otherworldly. A complete masterpiece of resort zoning."</p>
+                    <div class="user-profile">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Portrait of Amara Finch">
+                        <div class="user-info">
+                            <h5>Amara Finch</h5>
+                            <span>Architectural Journalist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION & BOOKING CTA -->
+    <footer>
+        <div class="footer-cta" id="footer-cta">
+            <div class="footer-cta-text">
+                <h2>Initiate Your Escape</h2>
+                <p>Secure premium suite access, high-tier dining tables, and premium beachside cabanas directly.</p>
+            </div>
+            <button class="cta-btn cta-primary">Enter Concierge Panel <i class="fas fa-calendar-alt"></i></button>
+        </div>
+
+        <div class="footer-links-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">AETHERIA<span>.</span></a>
+                <p>Architecting forward-thinking modern lifestyle spaces across elite global coastlines.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Sectors</h4>
+                <ul>
+                    <li><a href="#">Lumina Suites</a></li>
+                    <li><a href="#">Azure Beachfront</a></li>
+                    <li><a href="#">Vortex Arena</a></li>
+                    <li><a href="#">The Garden Tracks</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Sustainability Matrix</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="#">Career Profiles</a></li>
+                    <li><a href="#">Private Investment</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Aetheria Instagram Profile"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Aetheria YouTube Channel"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Aetheria Twitter Page"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aetheria Complex Management Corp. All production privileges secured.</p>
+            <p>Designed by pixo-pixel.</p>
+        </div>
+    </footer>
+
+    <!-- Linked External Script File -->
+    <script src="script.js"></script>
+</body>
+</html>
